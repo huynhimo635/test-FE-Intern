@@ -1,0 +1,22 @@
+.button {
+  background-color: transparent;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-l);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .button {
+    font-size: var(--font-size-m);
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    font-size: var(--font-size-s);
+    padding: 5px 10px;
+  }
+}
